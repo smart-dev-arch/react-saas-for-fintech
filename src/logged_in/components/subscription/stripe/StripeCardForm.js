@@ -28,7 +28,6 @@ class StripeCardForm extends PureComponent {
               autoFocus
               autoComplete="off"
               type="text"
-              FormHelperTextProps={{ error: true }}
             />
           </Grid>
           <Grid item xs={4}>
